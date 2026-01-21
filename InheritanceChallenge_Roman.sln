@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceChallenge_Roman", "InheritanceChallenge_Roman\InheritanceChallenge_Roman.csproj", "{04628F16-2C2D-4E9D-A86C-1710259F7649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04628F16-2C2D-4E9D-A86C-1710259F7649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04628F16-2C2D-4E9D-A86C-1710259F7649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04628F16-2C2D-4E9D-A86C-1710259F7649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04628F16-2C2D-4E9D-A86C-1710259F7649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56ED6A8E-B8F2-4F97-9F46-1BF4516C91FE}
+	EndGlobalSection
+EndGlobal
