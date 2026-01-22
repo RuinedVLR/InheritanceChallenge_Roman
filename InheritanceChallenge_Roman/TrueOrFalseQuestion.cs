@@ -12,5 +12,19 @@ namespace InheritanceChallenge_Roman
         {
             
         }
+
+        public override bool CheckAnswer()
+        {
+            Console.WriteLine("Your answer (true/false): ");
+            string answ = Console.ReadLine().ToLower();
+            if (answ == _answerText.ToLower())
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

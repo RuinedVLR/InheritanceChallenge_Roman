@@ -19,7 +19,11 @@ namespace InheritanceChallenge_Roman
 
         public void Ask()
         {
+            Console.Clear();
+            Console.WriteLine($"Your current score is {Program._score}/{Program._quizQuestions.Count}.");
+            Console.WriteLine();
             Console.WriteLine(_questionText);
+            Console.WriteLine();
         }
 
         public virtual bool CheckAnswer()
@@ -35,5 +39,7 @@ namespace InheritanceChallenge_Roman
                 return false;
             }
         }
+
+        public virtual string CorrectAnswer => _answerText;
     }
 }
